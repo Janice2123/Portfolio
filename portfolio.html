@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="home">
+        <img src="images/ja.jpg" alt="Profile Picture" style="position: relative; width: 400px; height:400px; overflow: hidden; border-radius: 50%;">
+        <h2>Hi, I'm Janice Quieta Casagan</h2>
+        <p>Aspiring UI/UX Designer & Web Developer</p>
+    </section>
+    
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I'm a driven and enthusiastic individual with a strong interest 
+            in UI/UX design and software development.<br> Currently pursuing an Associate in Computer 
+            Technology degree at the University of San Jose Recoletos,<br> I am dedicated to creating 
+            user-centric digital experiences that are both functional and visually appealing. <br>I am
+             eager to expand my knowledge and skills within the tech field, 
+            actively seeking opportunities <br>to contribute to collaborative projects and gain 
+            valuable hands-on experience.</p>
+    </section>
+    
+    <section id="projects">
+        <h2>Projects</h2>
+            <div class="row">
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/GKC.jpg" class="image fit thumb"><img src="images/GKC.jpg" alt="" /></a>
+                    <h3>GKC FaithLink</h3>
+                    <p>GKC FaithLink is our capstone project, developed to address challenges faced by 
+                        Glorious King's Cathedral, such as managing church activities, donations, 
+                        and financial records. Our project focuses on features for donations, events,
+                         and announcements, fulfilling our final university requirements.</p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/hak.jpg" class="image fit thumb"><img src="images/hak.jpg" alt="" /></a>
+                    <h3>2-Day Hackathon: Innovation in Action</h3>
+                    <p>During a two-day hackathon focused on building solutions concepts, I collaborated with a team to design a
+                         PN Management System, gaining valuable skills in teamwork, brainstorming, and communication.</p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/booth.jpg" class="image fit thumb"><img src="images/booth.jpg" alt="" /></a>
+                    <h3>Summer Bootcamp</h3>
+                    <p>During a two-month Summer Bootcamp led by Sir Jullien Moullec, 
+                        we redesigned the official website of the University of San Jose Recoletos (USJR).</p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/Screenshot (1).png" class="image fit thumb"><img src="images/Screenshot (1).png" alt="" /></a>
+                    <h3>SHOPhone</h3>
+                    <p>This project is a stepping stone towards a full-fledged e-commerce website for phones. 
+                        We aim to create a platform where users can easily browse, compare, and buy a variety of mobile devices. The goal is 
+                        to provide a seamless and enjoyable shopping experience for anyone seeking their next smartphone.</p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/MOOD BOARD.png" class="image fit thumb"><img src="images/MOOD BOARD.png" alt="" /></a>
+                    <h3>My First Figma Design</h3>
+                    <p>My first experience with Figma resulted in this coffee hub design.
+                         The instructor's project allowed complete creative freedom, providing valuable learning.</p>
+                </article>
+                <article class="col-6 col-12-xsmall work-item">
+                    <a href="images/Screenshot (3).png" class="image fit thumb"><img src="images/Screenshot (3).png" alt="" /></a>
+                    <h3>Prototyping Our GKC FaithLink</h3>
+                    <p>This picture showcases our prototype for GKC FaithLink, designed using Figma for our capstone project. 
+                        Creating this prototype allowed us to test and refine our design before development.</p>
+                </article>
+            </div>
+            <ul class="actions">
+                <a href="#" class="button">Full Portfolio</a>
+            </ul>
+        </section>
+    </section>
+    <section id="basic-knowledge">
+        <h2>Basic Knowledge With</h2>
+        <div class="skill-grid">
+          <img src="images/html.svg" alt="HTML" width="200" height="200">
+          <img src="images/css.svg" alt="CSS"width="200" height="200">
+          <img src="images/javascript.svg" alt="JavaScript" width="200" height="200"> 
+          <img src="images/laravel.svg" alt="Laravel" width="200" height="200">
+          <img src="images/c.svg" alt="C" width="200" height="200">
+          <img src="images/mysql.svg" alt="Mysql" width="200" height="200">
+          <img src="images/java.svg" alt="Java" width="200" height="200">
+          
+           <br><br><br><br><br><br><br><b<br><br><br><br>
+        
+    <h2>Soft Skills</h2>
+    <div class="skill-grid soft-skills-grid">
+      <div class="skill-item"> <img src="images/Teamwork.webp" alt="teamwork"> <h3>Teamwork</h3> </div>
+      <div class="skill-item"> <img src="images/Communication.jpg" alt="communication"> <h3>Communication</h3> </div>
+      <div class="skill-item"> <img src="images/Time.jpg" alt="Time Management"> <h3>Time Management</h3> </div>
+      <div class="skill-item"> <img src="images/Adaptability.jpg" alt="Adaptability"> <h3>Adaptability</h3> </div>
+    </div>
+</section>
+
+<style>
+.skill-grid {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    gap: 50px; 
+}
+
+.skill-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.skill-item img {
+    width: 200px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+</style>
+     
+    <section id="resume">
+        <h2>Resume</h2>
+        <p><a href="resume_janice.pdf" download>Download My Resume</a></p>
+    </section>
+    
+    <section id="contact">
+        <h2>Get In Touch</h2>
+        <ul class="social-icons">
+            <a href="https://www.linkedin.com/in/janice-casagan-97b8b0356/" target="_blank">
+                    <img src="images/linkedIn.webp" alt="linkedIn" width="50" height="50">
+                </a>
+            <a href="https://www.facebook.com/bhebeb.casagan" target="_blank">
+                    <img src="images/f_icon.webp" alt="Facebook" width="50" height="50">
+                </a>
+            <a href="https://github.com/Janice2123" target="_blank">
+                    <img src="images/g_icon.png" alt="GitHub" width="50" height="50">
+                </a>
+            <a href="mailto:janicecasagan07@gmail.com" target="_blank">
+                    <img src="images/e_icon.webp" alt="Email" width="50" height="50">
+                </a>
+        </ul>
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Janice Casagan. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
